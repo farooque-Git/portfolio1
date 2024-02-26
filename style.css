@@ -352,6 +352,7 @@ img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  height: fit-content;
 }
 
 .work__img img {
@@ -360,6 +361,15 @@ img {
 
 .work__img img:hover {
   transform: scale(1.1);
+}
+
+.projectheading {
+  padding-left: 10px;
+  cursor: pointer;
+  color: rgb(70, 70, 70);
+}
+.projectheading :hover {
+  color: rgb(0, 0, 0);
 }
 
 /* ===== CONTACT =====*/
